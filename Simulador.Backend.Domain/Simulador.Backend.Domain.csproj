@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Course\**" />
+    <EmbeddedResource Remove="Course\**" />
+    <None Remove="Course\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Simulador.Backend.Shared\Simulador.Backend.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Answer\Dto\" />
+    <Folder Include="Answer\Interfaces\" />
+    <Folder Include="Asks\Dto\" />
+    <Folder Include="Asks\Interfaces\" />
+    <Folder Include="Courses\Interfaces\" />
+    <Folder Include="Entitys\Dto\" />
+    <Folder Include="Entitys\Interfaces\" />
+    <Folder Include="Issues\Dto\" />
+    <Folder Include="Issues\Interfaces\" />
+    <Folder Include="Topics\Dto\" />
+    <Folder Include="Topics\Interfaces\" />
+  </ItemGroup>
+
+</Project>

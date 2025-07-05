@@ -1,0 +1,48 @@
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+.vs/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Logs
+*.log
+
+# Secrets
+secrets.json
+
+# Database files
+*.mdf
+*.ldf
+
+# Dependency directories
+packages/
+node_modules/
+
+# Publish output
+wwwroot/
+dist/
+
+# Environment files
+.env
+.env.*
+
+# JetBrains Rider / ReSharper
+.idea/
+*.sln.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
