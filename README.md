@@ -16,14 +16,7 @@ Este es un proyecto de ejemplo desarrollado en **.NET 8.0**, estructurado con un
 
 ## 📁 Estructura del Proyecto
 
-SimulaProBackend/
-├── Domain/ # Entidades, interfaces y lógica de negocio
-├── Application/ # Casos de uso, DTOs, servicios de aplicación
-├── Infrastructure/ # Repositorios, proveedores externos, JWT
-├── Adapters/ # Interfaces de entrada/salida (ej. consola, API)
-├── Program.cs # Punto de entrada de la app
-├── README.md
-└── .gitignore
+<pre> ```text SimulaProBackend/ ├── Domain/ # Entidades, interfaces y lógica de negocio ├── Application/ # Casos de uso, DTOs, servicios de aplicación ├── Infrastructure/ # Repositorios, proveedores externos, JWT ├── Adapters/ # Interfaces de entrada/salida (ej. consola, API) ├── Program.cs # Punto de entrada de la app ├── README.md └── .gitignore ``` </pre>
 
 ---
 
