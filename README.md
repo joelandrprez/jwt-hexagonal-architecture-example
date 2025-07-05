@@ -16,7 +16,26 @@ Este es un proyecto de ejemplo desarrollado en **.NET 8.0**, estructurado con un
 
 ## 📁 Estructura del Proyecto
 
+SimulaProBackend/
+├── Domain/ # Entidades, interfaces y lógica de negocio
+├── Application/ # Casos de uso, DTOs, servicios de aplicación
+├── Infrastructure/ # Repositorios, proveedores externos, JWT
+├── Adapters/ # Interfaces de entrada/salida (ej. consola, API)
+├── Program.cs # Punto de entrada de la app
+├── README.md
+└── .gitignore
+
 ---
+
+## 🚀 Cómo ejecutar el proyecto
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tuusuario/jwt-hexagonal-auth-example.git
+   cd jwt-hexagonal-auth-example
+
+---
+
 
 ## 🗄 Restaurar Base de Datos
 
